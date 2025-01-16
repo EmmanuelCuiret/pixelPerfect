@@ -135,7 +135,7 @@ h2 {
 }
 
 footer div {
-  width: auto;
+  width: 100vw;
   background-color: rgb(58, 58, 58);
 }
 
