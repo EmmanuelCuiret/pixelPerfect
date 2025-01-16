@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
 
-:root {
-  --url-image1: url("./assets/image1.png");
-}
-
 html {
   padding: 0;
   box-sizing: border-box;
@@ -54,10 +50,6 @@ p > span {
   color: rgb(143, 39, 39);
 }
 
-h1,
-h2 {
-}
-
 .card {
   background-color: #fff;
   border-radius: 15px;
@@ -69,11 +61,8 @@ h2 {
 }
 
 .image1 {
-  background-image: var(--url-image1);
   width: 200px;
   height: 185px;
-  top: 0;
-  right: 0;
 }
 
 .name {
@@ -137,9 +126,6 @@ h2 {
 footer {
   width: 100vw;
   background-color: rgb(58, 58, 58);
-}
-
-footer {
   text-align: center;
   color: #fff;
   font-weight: bold;
